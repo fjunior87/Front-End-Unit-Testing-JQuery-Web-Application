@@ -4,7 +4,7 @@
   "description": "An Angular Application that demonstrates how to use karma and jasmine for front-end unit testing",
   "main": "index.js",
   "scripts": {
-    "test": "karma start --single-run --browsers ChromeHeadless karma.conf.js",
+    "test": "karma start --single-run --browsers ChromeHeadlessNoSandbox karma.conf.js",
     "specRunner": "gulp",
     "karmaTest": "karma start"
   },
