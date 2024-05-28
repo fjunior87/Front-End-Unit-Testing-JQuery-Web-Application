@@ -73,7 +73,7 @@ module.exports = function(config) {
     // browsers: ['Chrome', 'Firefox', 'PhantomJS'],
     browsers: ['Chrome', 'ChromeHeadless'],
     customLaunchers: {
-      HeadlessChrome: {
+      ChromeHeadless: {
         base: 'ChromeHeadless',
         flags: ['--no-sandbox',
                 '--disable-web-security',
