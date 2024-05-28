@@ -73,7 +73,7 @@ module.exports = function(config) {
     // browsers: ['Chrome', 'Firefox', 'PhantomJS'],
     browsers: ['Chrome', 'ChromeHeadless'],
     customLaunchers: {
-      Chrome: {
+      ChromeHeadless: {
         base: 'ChromeHeadless',
         flags: ['--no-sandbox']
       }
