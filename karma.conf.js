@@ -78,7 +78,7 @@ module.exports = function(config) {
         flags: ['--no-sandbox',
                 '--disable-web-security',
                 '--disable-gpu',
-                '--headless'
+                '--headless=new'
                ]
       }
     },
