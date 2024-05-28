@@ -71,16 +71,11 @@ module.exports = function(config) {
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     // browsers: ['Chrome', 'Firefox', 'PhantomJS'],
-    browsers: ['Chrome', 'ChromeHeadless'],
-    flags: ['--no-sandbox',
-                '--disable-web-security',
-                '--disable-gpu',
-                '--headless=new'
-               ],
-    /*
+    browsers: ['Chrome', 'ChromeHeadless', 'ChromeHeadlessNoSandbox'],
+    
     customLaunchers: {
-      ChromeHeadless: {
-        base: 'Chrome',
+      ChromeHeadlessNoSandbox: {
+        base: 'ChromeHeadless',
         flags: ['--no-sandbox',
                 '--disable-web-security',
                 '--disable-gpu',
@@ -88,7 +83,7 @@ module.exports = function(config) {
                ]
       }
     },
-*/
+
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
